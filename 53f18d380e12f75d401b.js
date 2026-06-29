@@ -27,10 +27,7 @@ const loading = document.createElement("img");
     loading.setAttribute("id", "loadSpin")
     loading.src = loadIcon;
 
-
-
 getUserButton.addEventListener("click", ()=>{
-
 
 if(getPlate.children.length >= 1){
     for(let i=0; i < getPlate.children.length; i++){
@@ -153,7 +150,6 @@ const cityTime = document.createElement("div");
     return {color1, color2, color3}
         
     }
-
         
         const secondGradient =`rgb(${getGradient(getTempToColor).color1}, ${getGradient(getTempToColor).color2}, ${getGradient(getTempToColor).color3})`;
         
